@@ -2,7 +2,7 @@
 
 > Built for the PowerSync AI Hackathon 2026
 
-FieldMind is a real-time, offline-capable AI assistant for field workers in industrial environments like oil & gas, utilities, mining, and manufacturing. It uses **PowerSync** as the core sync engine to deliver instant data synchronization between field devices and HQ — even without internet connectivity.
+FieldMind is a real-time, offline-capable AI assistant for field workers in industrial environments like oil & gas, utilities, mining, and manufacturing. It uses **PowerSync** as the core sync engine to deliver instant data synchronization between field devices and HQ, even without internet connectivity.
 
 ---
 
@@ -28,7 +28,7 @@ FieldMind solves all three with a local-first architecture powered by PowerSync.
 
 ## How PowerSync Is Used
 
-PowerSync is the **architectural backbone** of FieldMind — not an add-on. Here is exactly how:
+PowerSync is the **architectural backbone** of FieldMind not an add-on. Here is exactly how:
 
 **1. Offline-First Incident Reporting**
 Workers submit incidents to a local SQLite database via PowerSync. When connectivity returns, incidents automatically sync to Supabase. The worker never loses data.
@@ -37,7 +37,7 @@ Workers submit incidents to a local SQLite database via PowerSync. When connecti
 PowerSync syncs incident updates, status changes, and HQ responses to all connected devices instantly. When an HQ manager marks an incident as "investigating", the worker sees it in under 100ms.
 
 **3. Zone-Based Alert Broadcasting**
-HQ broadcasts emergency alerts to all field workers simultaneously. PowerSync delivers these alerts to every connected device in real time — critical for emergency evacuations.
+HQ broadcasts emergency alerts to all field workers simultaneously. PowerSync delivers these alerts to every connected device in real time critical for emergency evacuations.
 
 **4. Two-Way Messaging**
 HQ managers and workers communicate through incident threads. Messages are synced via PowerSync so both sides see updates instantly.
