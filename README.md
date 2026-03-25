@@ -9,8 +9,8 @@ FieldMind is a real-time, offline-capable AI assistant for field workers in indu
 ## Links
 
 - **Live URL:** https://field-mind-eta.vercel.app
-- **Demo Video:** https://youtube.com/your-demo-link
-- **GitHub:** https://github.com/yourusername/fieldmind
+- **Demo Video:** https://youtu.be/xtHzpNWqVto
+- **GitHub:** https://github.com/okumagbarukevwe/fieldMind
 
 ---
 
